@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nmap-searching"
+version = "0.1.0"
+description = ""
+authors = ["kohei <koheitech001@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "nmap_searching"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-nmap = "^0.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
